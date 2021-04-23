@@ -18,13 +18,11 @@ We create a Dockerfile and have our index.html page run on a server through the 
 - [AWS CLI on DockerDesktop](https://user-images.githubusercontent.com/43617474/115931624-73fdf580-a459-11eb-9a4c-6e759b17792a.PNG)
 - Could not run "aws configure" from the directions followed, I can't tell if it is some issue related to PowerShell because only the first few commands through the tutorial would work. Image with error code below for "aws configure" below:
 - [aws configure not working - possible powershell issue](https://user-images.githubusercontent.com/43617474/115931763-b6bfcd80-a459-11eb-950f-6d54f96b9d6f.PNG)
-
 - Created secret username and secret password on GitHub to use for the DockerHub username and password. 
 - Set DockerHubs username in the value field, and set the secret/viewable name to SECRET_USERNAME. 
 - Set DockerHubs password in the value field, and set the secret/viewable name to SECRET_PASSWORD.
 - Created workflow on GitHub using the template given in the Project description. [workflow](https://user-images.githubusercontent.com/43617474/115932738-87aa5b80-a45b-11eb-8b92-b655f3a39be3.PNG)
 - Within configuration of the workflow, used my secret user name and password within the username/password sections.
 - The first attempts failed because of the build-push being v2, talked to Professor Duncan about it and got it back to v1 and it successfully got to DockerHub. 
-- ![v1 0 4 Successful Attempt](https://user-images.githubusercontent.com/43617474/115933005-14551980-a45c-11eb-8791-ec584a38ac9c.PNG)
-- ![DockerHub Retrieved v1 0 4 from GitHub](https://user-images.githubusercontent.com/43617474/115933067-29ca4380-a45c-11eb-9613-01fa227e19aa.PNG)
-
+- [v1 0 4 Successful Attempt](https://user-images.githubusercontent.com/43617474/115933005-14551980-a45c-11eb-8791-ec584a38ac9c.PNG)
+- [DockerHub Retrieved v1 0 4 from GitHub](https://user-images.githubusercontent.com/43617474/115933067-29ca4380-a45c-11eb-9613-01fa227e19aa.PNG)
