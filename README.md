@@ -18,5 +18,9 @@ We create a Dockerfile and have our index.html page run on a server through the 
 - AWS CLI running on DockerHub [image 4]
 - Could not run "aws configure" from the directions followed, I can't tell if it is some issue related to PowerShell because only the first few commands through the tutorial would work. Image with error code below for "aws configure" below:
 - [image 5]
+- Created secret username and secret password on GitHub to use for the DockerHub username and password. 
+- Set DockerHubs username in the value field, and set the secret/viewable name to SECRET_USER
+- Set DockerHubs password in the value field, and set the secret/viewable name to SECRET_PASSWORD.
 - Created workflow on GitHub using the template given in the Project description. [image 6]
 - The first attempt failed because of the build-push being v1, it flagged a warning for Professor Duncan but it made the process fail here for some reason. Changing it to v2 allowed me to successfully run the workflow. [image 7]
+- Within configuration of the workflow, used my secret user name and password within the username/password sections.
